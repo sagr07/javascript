@@ -31,6 +31,8 @@
 
 ////////////////////////////////////////////////////
 
+///Adding method in object/////
+
 // const course={
 //     name: "sagar",
 //     age:24,
@@ -43,7 +45,8 @@
 //         console.log("enrolled sucessfully");
 
 //     }
- 
+
 // }
+// course.fee=10000,
 //  course.enroll()
-//  console.log(course);
+//  console.log(course.fee);
