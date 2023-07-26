@@ -35,16 +35,3 @@
 //  console.log(c);
 //  console.log(c());
  
-class student {
-    constructor(name,course){
-    this.studentname = name;
-    this.studentcourse = course;
-    console.log("Student details");
-}
-hello(){
-console.log("hello"+ this.studentname);
-
-}
-let a= newstudentname("sagar","MCA");
-a.hello();
-}
