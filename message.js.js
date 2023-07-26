@@ -1,25 +1,4 @@
-// // javascript closure example
-
-// function greet() {
-
-//    let name = 'John';
-
-   
-//    function displayName() {
-
-      
-//        return 'Hi' + ' ' + name;
-     
-//    }
-
-//    return displayName;
-// }
-
-// const g1 = greet();
-// console.log(g1); 
-// console.log(g1());
-
-
+// // javascript closure///////////////////////////////
 
 //  function a(){
 
@@ -34,4 +13,37 @@
 // const c = a();
 //  console.log(c);
 //  console.log(c());
+
+
+//////Nested object/////////////////////////////////////
+
+// const student={
+//     name:"Ram",
+//     class: 12,
+//     marks:{
+//         science:70,
+//         math:60,
+//     }
+// }
+//console.log(student);
+//console.log(student.marks.science);
+
+
+////////////////////////////////////////////////////
+
+// const course={
+//     name: "sagar",
+//     age:24,
+//     course:"javascript",
+//     notes:{
+//         introduction:"welcome to js course"
+
+//     },
+//     enroll(){
+//         console.log("enrolled sucessfully");
+
+//     }
  
+// }
+//  course.enroll()
+//  console.log(course);

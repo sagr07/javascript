@@ -14,7 +14,7 @@
 // avg(c)
 
 
-///// nested function/////
+///// nested function///////////////////////////
 
 
 // function mess(name) {
@@ -25,14 +25,15 @@
 //  }
 //  mess('sagar'); 
 
-///////Arrow function///////
+///////Arrow function/////////////////////////////
 
-/////////Single parameter//////
+/////////Single parameter//////////////////////////
+
 // let sqr = (num) => num *num
 // console.log(sqr(10));
 
 
-//////Double parameter////////
+//////Double parameter////////////////////
 
 // let a = (x, y) => {
 //     return x+y;
