@@ -50,3 +50,15 @@
 // course.fee=10000,
 //  course.enroll()
 //  console.log(course.fee);
+
+
+////////Using This keyword////////
+
+// const person={
+//     name:"sagar",
+//     age: 24,
+//     mess:function(){
+//         console.log("This is "+ this.name );
+//     }
+// }
+// person.mess();
