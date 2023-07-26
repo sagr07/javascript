@@ -62,3 +62,20 @@
 //     }
 // }
 // person.mess();
+
+///////Constructor Function Parameters/////////////
+
+function person(fname,lname,agge){
+this.name=fname,
+this.surname=lname,
+this.age=agge,
+this.greet =function(){
+    return ("this is "+ this.name);
+}
+}
+const person1 =new person("sagr","kumar",24);
+const person2= new person("ram","kumar",20);
+
+console.log(person1);
+
+console.log(person2);
