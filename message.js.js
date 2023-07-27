@@ -79,3 +79,17 @@
 // console.log(person1);
 
 // console.log(person2);
+
+//////For Each loop//////////////
+// let a= 1;
+// for(let i=10 ;i>a;i--){
+//     console.log(i)
+// }
+
+//////while loop////////////
+// let a= 1;
+// let i =5;
+// while(i>=a){
+//     console.log(i)
+//     i=i-a
+// }

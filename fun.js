@@ -10,7 +10,7 @@
 // let b = (av/3);
 // console.log(b);
 // }
-// let c= sub(50,40,45);
+// let c= sub(10,1,1);
 // avg(c)
 
 
@@ -66,4 +66,36 @@
 // }
 // sum(10,20);
 
+
+// function num(x,y,z) {
+//     console.log(x+y+z);
+
+// }
+// const num1=[2,4,6];
+// num(...num1)
  
+
+////////insert item in Map //////////
+
+// let map1= new Map();
+// map1.set('info',{name:"sagar",age:24});
+// console.log(map1)
+
+
+/////////settimeout ///////////
+// function mess(){
+//     console.log("hello");
+// }
+// setTimeout(mess,1000);
+// console.log("please wait")
+
+////////////////////////////////////////////////
+
+// let a="hello";
+// console.log(a);
+// function mess(name){
+
+//     console.log(name);
+
+// }
+// setTimeout(mess,2000,"sagar");
