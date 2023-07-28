@@ -93,3 +93,16 @@
 //     console.log(i)
 //     i=i-a
 
+//////Promise Program///////////
+
+// const count = true;
+
+// let countValue = new Promise(function (resolve, reject) {
+//     if (count) {
+//         resolve("There is a count value.");
+//     } else {
+//         reject("There is no count value");
+//     }
+// });
+
+// console.log(countValue);
