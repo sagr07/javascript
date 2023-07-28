@@ -109,27 +109,25 @@
 
 /////////////////////////////////////
 
-function pro (complete){
+// function pro (complete){
 
 
-return new Promise((pass,fail)=>
-{
-    console.log("fetching Data,please wait...")
-    setTimeout(()=>{
+// return new Promise((pass,fail)=>
+// {
+//     console.log("fetching Data,please wait...")
+//     setTimeout(()=>{
 
-        if(complete){
-            pass("you will pass");
-        }
-        else{
-            fail("you will fail");
-        }
-        },3000)
-        });
-    }
-   let onfulfilment=(result)=>{
-    console.log(result);
-   }
-   let onrejection=(error)=>{
-    console.log(error);
-   }
- pro(true).then(onfulfilment).catch(onrejection);
+//         if(complete){
+//             pass("you will pass");
+//         }
+//         else{
+//             fail("you will fail");
+//         }
+//         },2000)
+//         });
+//     }
+//  pro(true).then((result)=>{
+//     console.log(result);
+//    }).catch((error)=>{
+//     console.log(error);})
+   
