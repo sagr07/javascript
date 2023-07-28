@@ -114,12 +114,22 @@ function pro (complete){
 
 return new Promise((pass,fail)=>
 {
-    if(complete){
-    pass("you will pass");
-}
-else{
-    fail("you will fail");
-}
-});
-}
-console.log(pro(true));
+    console.log("fetching Data,please wait...")
+    setTimeout(()=>{
+
+        if(complete){
+            pass("you will pass");
+        }
+        else{
+            fail("you will fail");
+        }
+        },3000)
+        });
+    }
+   let onfulfilment=(result)=>{
+    console.log(result);
+   }
+   let onrejection=(error)=>{
+    console.log(error);
+   }
+ pro(true).then(onfulfilment).catch(onrejection);
