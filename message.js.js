@@ -109,14 +109,17 @@
 
 /////////////////////////////////////
 
-let a=true;
-let complete= new Promise((pass,fail)=>
+function pro (complete){
+
+
+return new Promise((pass,fail)=>
 {
-    if(a){
+    if(complete){
     pass("you will pass");
 }
 else{
     fail("you will fail");
 }
 });
-console.log(complete);
+}
+console.log(pro(true));
