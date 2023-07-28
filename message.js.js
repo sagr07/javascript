@@ -92,4 +92,4 @@
 // while(i>=a){
 //     console.log(i)
 //     i=i-a
-// }
+

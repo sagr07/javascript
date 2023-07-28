@@ -99,3 +99,21 @@
 
 // }
 // setTimeout(mess,2000,"sagar");
+
+/////callback function///////////////////
+ const per1 = (name,callfrnd)=>{
+    console.log(`hello ${name} i m bsy now`)
+callfrnd();
+ }
+ 
+    const per2= ()=>{
+        console.log(`i will call you later`)
+    
+
+ }
+ per1("Rahul",per2);
+ 
+
+ 
+
+ 
