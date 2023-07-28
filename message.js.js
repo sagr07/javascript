@@ -106,3 +106,17 @@
 // });
 
 // console.log(countValue);
+
+/////////////////////////////////////
+
+let a=true;
+let complete= new Promise((pass,fail)=>
+{
+    if(a){
+    pass("you will pass");
+}
+else{
+    fail("you will fail");
+}
+});
+console.log(complete);
