@@ -115,6 +115,39 @@
 //  per1("Rahul",per2);
  
 
- 
+//  const count = true;
+//  let countValue= new Promise (function(_resolve){
+//    if(count){
+//    console.log("you will pass");
+//    }else{
+//     console.log("you will fail");
 
- 
+//    }
+    
+//  });
+//  console.log(countValue);
+//module.exports=countValue
+// const removeSname = (name)=>{
+//     let expectedoutput= names;
+//     name.forEach(element =>{
+//         if(element.charAt(0)==='s'){
+//             const index= expectedOutput.indexOf(element);
+//             expectedOutput.splice(index,1)
+//         }
+//     });
+//     return expectedOutput;
+// }
+
+
+
+// async function test(){
+//     console.log("message2");
+//   console.log("message3");
+//    await console.log("message4");
+//     console.log("message5")
+// }
+
+
+// console.log("message1")
+// test();
+// console.log("message6")
